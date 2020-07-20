@@ -587,11 +587,6 @@ export class Kazuna {
 
         if(msg.author.id == this.bot.user?.id && !this.config.isSelfInvokeAllowed()) return;
 
-        // I hate Backpack.
-        if (msg.author.id == "617013114117947517") {
-            msg.react("691314784473186324");   // char_fly
-        }
-
         if(msg.content.startsWith("咔子")) {
             try {
                 this.commandQueue.push(this.dispatcher.parse(msg.content.substring(2), new DiscordCommandSource(msg)));
