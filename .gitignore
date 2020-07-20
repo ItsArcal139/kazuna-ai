@@ -1,0 +1,20 @@
+# "node_modules" directory is always ignored.
+# User can install dependencies by running "npm i".
+node_modules/
+
+# Ignore the build folder.
+# The script is built every time when executing "npm run exec".
+build/
+
+# Ignore the log output folder.
+log/
+
+# Ignore the active "config.json" file cause
+# it contains sensitive informations such as API token.
+# A sensored copy "config_sample.json" can be modified and used.
+config.json
+
+# Ignore the runtime data files.
+vinegar_data.json
+disfriend_data.json
+dict.json

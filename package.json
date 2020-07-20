@@ -1,0 +1,22 @@
+{
+  "name": "kazuna-ai",
+  "version": "1.0.0",
+  "description": "Kazuna AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "exec": "tsc && node ."
+  },
+  "author": "Kaka",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.23",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "string.prototype.matchall": "^4.0.2",
+    "typescript": "^3.9.6"
+  }
+}

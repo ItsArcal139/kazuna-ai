@@ -1,0 +1,96 @@
+{
+    "version": 5,
+    "botToken": "<insert token here>",
+    "status": "咩我咔子AI啦>w<",
+    "quotes": [
+        "咩030?",
+        "阿巴阿巴(･﹃･)",
+        "咔子敲可愛<3333",
+        "背包<:char_fly:691314784473186324>啦>w<",
+        "背包小寶貝~~:heart:",
+        "背包就鋼鐵直男咩030",
+        {
+            "type": "dateSwitch",
+            "07-15": "紫璃生日快樂>w<!!",
+            "defaultQuote": "背包是變態030"
+        },
+        {
+            "type": "dateSwitch",
+            "07-15": [
+                "紫璃>w<!!",
+                "生日快樂>w<!!"
+            ],
+            "defaultQuote": [
+                "背",
+                "包",
+                "是",
+                "變",
+                "態",
+                "030"
+            ]
+        }
+    ],
+    "deleteDuration": 650,
+    "enableTypeDelay": true,
+    "chanceOverride": [
+        {
+            "id": "430311388561539073",
+            "name": "咔子",
+            "refuse": 0
+        },
+        {
+            "id": "617013114117947517",
+            "name": "背包",
+            "refuse": {
+                "type": "dateSwitch",
+                "02-09": "0.8",
+                "defaultQuote": "0.99"
+            }
+        },
+        {
+            "id": "217238973246865408",
+            "name": "阿咔",
+            "refuse": {
+                "type": "dateSwitch",
+                "05-28": "0.5",
+                "defaultQuote": "0.2"
+            }
+        },
+        {
+            "id": "694881007307849778",
+            "name": "紫璃",
+            "refuse": {
+                "type": "dateSwitch",
+                "07-15": "0",
+                "defaultQuote": "default"
+            }
+        }
+    ],
+    "defaultRefuseChance": 0.475,
+    "dmReplies": [
+        [
+            "咩你密我幹嘛030?",
+            "咩你好可怕QAQ"
+        ],
+        [
+            "咩..但咧",
+            "為什麼你要密我咩",
+            "你要搭訕我咩...030?",
+            "我我我還不能被搭訕啊啊啊啊咩",
+            "就..咩...修但幾咧",
+            "冷靜別亂來啊啊啊咩030",
+            "<:meme_calm:691316797462544445>"
+        ]
+    ],
+    "emptyReplies": [
+        "咩030?",
+        "咩要說什麼030?",
+        "030",
+        [
+            "咩030",
+            "講話030"
+        ],
+        "說>w<!!"
+    ],
+    "allowSelfInvoke": false
+}
