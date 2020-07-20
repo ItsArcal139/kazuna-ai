@@ -550,14 +550,6 @@ export class Kazuna {
         });
     }
 
-    private updateDisfriend() {
-
-    }
-
-    private updateVinegar() {
-
-    }
-
     public handleMessage(msg: Message) {
         if(msg.channel instanceof DMChannel) {
             var author = msg.author;
@@ -597,7 +589,7 @@ export class Kazuna {
 
         // I hate Backpack.
         if (msg.author.id == "617013114117947517") {
-            msg.react("691314784473186324");
+            msg.react("691314784473186324");   // char_fly
         }
 
         if(msg.content.startsWith("咔子")) {
