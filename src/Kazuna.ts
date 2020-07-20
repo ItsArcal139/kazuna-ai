@@ -621,8 +621,7 @@ export class Kazuna {
         
         var channel = await msg.channel.fetch();
         
-        /** 
-        if(msg.author.id == "617013114117947517" && reaction.emoji.id == "691314784473186324") {
+        if(msg.author.id == "617013114117947517" && reaction.emoji.id == "691314784473186324" && user.id != this.bot.user?.id) {
             reaction = await reaction.fetch();
             if((reaction.count ?? 0) == 1) {
                 msg.react("691314784473186324");
@@ -631,7 +630,7 @@ export class Kazuna {
                     text: "喔耶喔耶背包趕快起飛>w<!!"
                 });
             }
-        } // */
+        }
     }
 
     public start() {
